@@ -13,13 +13,19 @@ To direct the folder "my-admin-app" and work
 'npm start'
 To start the localhost browser
 
+'npm i'
+To install all the packages below.
+
 'npm install @material-ui/icons'
 To install the package in this project directory with npm
 or using 'yarn add @material-ui/icons' to replace npm if using yarn
+Link: https://material-ui.com/components/material-icons/material-icons
 
-'npm install i@material-ui/core'
+'npm install @material-ui/core'
 If you're not already using Material-UI in your project, you can add it with npm
 or using 'yarn add @material-ui/core' to replace npm if using yarn
+
+'npm install recharts'
 
 
 
