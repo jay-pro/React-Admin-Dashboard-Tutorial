@@ -17,7 +17,7 @@ To start the localhost browser
 To install all the packages below.
 
 'npm install @material-ui/icons'
-To install the package in this project directory with npm
+To install the icons package in this project directory with npm
 or using 'yarn add @material-ui/icons' to replace npm if using yarn
 Link: https://material-ui.com/components/material-icons/material-icons
 
@@ -28,4 +28,6 @@ or using 'yarn add @material-ui/core' to replace npm if using yarn
 'npm install recharts'
 
 
+import { NotificationsNone, Language,  Settings} from '@material-ui/icons';
+To use all the icons instead of import many icons...
 
