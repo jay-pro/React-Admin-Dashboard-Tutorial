@@ -1,8 +1,8 @@
 import "./App.css";
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
-import Home from "./components/home/Home";
-import "./App.css";
+//import Home from "./components/home/Home";
+import Coursemanage from "./components/coursemanage/Coursemanage";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <Home />
+        {/* thay ở dưới bằng Home hoặc các Function trong System Admin */}
+        <Coursemanage />
       </div>
     </div>
   );
