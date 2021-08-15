@@ -1,4 +1,5 @@
 # React-Admin-Dashboard-Tutorial
+
 This project was implemented by Bùi Hà Nhi.
 
 In the project directory, run:
@@ -27,7 +28,5 @@ or using 'yarn add @material-ui/core' to replace npm if using yarn
 
 'npm install recharts'
 
-
-import { NotificationsNone, Language,  Settings} from '@material-ui/icons';
+import { (name type of icons)} from '@material-ui/icons';
 To use all the icons instead of import many icons...
-
