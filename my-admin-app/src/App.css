@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
 }
 
@@ -9,5 +9,6 @@
 
 .others {
   flex: 4;
-  /* background-color: darkcyan; */
+  /* background-color: darkcyan; 
 }
+ */

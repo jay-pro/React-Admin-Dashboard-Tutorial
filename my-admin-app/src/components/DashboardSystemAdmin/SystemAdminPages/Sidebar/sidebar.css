@@ -1,0 +1,47 @@
+.sa-sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: rgb(20, 82, 197);
+  /* cho sidebar cố định */
+  position: sticky;
+  top: 50px;
+}
+
+.sa-sidebarWrapper {
+  padding: 20px;
+  color: white;
+}
+
+.sa-sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sa-sidebarTitle {
+  font-size: 18px;
+  color: white;
+}
+
+.sa-sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sa-sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  /* icon với chữ nằm ngang nhau */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sa-sidebarListItem.active,
+.sa-sidebarListItem:hover {
+  background-color: white;
+  color: black;
+}
+
+.sa-sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}

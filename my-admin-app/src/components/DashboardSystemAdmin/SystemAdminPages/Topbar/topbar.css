@@ -1,0 +1,59 @@
+.sa-topbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  /* để topbar cố định trên đó mỗi khi cuộn xuống */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.sa-topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sa-logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.sa-topRight {
+  /* chinh cho may icons nam thanh hang ngang */
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  color: black;
+}
+
+.sa-topbarIconContainer {
+  position: relative;
+}
+
+.sa-topIconBadge {
+  /* thong bao */
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  /* chinh so thong bao nam tren cai chuong */
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.sa-topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

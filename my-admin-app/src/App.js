@@ -1,18 +1,10 @@
 import "./App.css";
-import Topbar from "./components/topbar/Topbar";
-import Sidebar from "./components/sidebar/Sidebar";
-//import Home from "./components/home/Home";
-import Coursemanage from "./components/coursemanage/Coursemanage";
+import SystemAdminHomepage from "./components/DashboardSystemAdmin/SystemAdminPages/SystemAdminHomepage/SystemAdminHomepage";
 
 function App() {
   return (
     <div className="App">
-      <Topbar />
-      <div className="container">
-        <Sidebar />
-        {/* thay ở dưới bằng Home hoặc các Function trong System Admin */}
-        <Coursemanage />
-      </div>
+      <SystemAdminHomepage />
     </div>
   );
 }
